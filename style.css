@@ -18,7 +18,7 @@ body {
   align-items: center;
   padding: 20px 40px;
   background-color: #422e79;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(255, 251, 251, 0.1);
 }
 
 .logo {
@@ -28,7 +28,8 @@ body {
 .menu a {
   margin-left: 20px;
   text-decoration: none;
-  color: #fffefe;
+  align-items: center;
+  color: #fff1f1;
   font-weight: bold;
 }
 
@@ -37,12 +38,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 80px 50px;
+  padding: 100px 50px;
   background-color: #2d0e5f;
 }
 
 .texto {
   padding-right: 20px;
+  color: #fff1f1;
+ 
 }
 
 .texto h1 {
